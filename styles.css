@@ -1,0 +1,152 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+body{
+   font-size:18px;
+   font-family:'open sans', sans-serif;
+}
+
+h1,button{
+   font-family:'poppins',sans-serif;
+   font-weight: 600;
+}
+
+.img{
+   max-width: 100%;
+   max-height: 100%;
+}
+ul{
+   list-style-type: none ;
+}
+header{
+   background: url(images/bg-hero-desktop.svg ) ;
+   background-color: hsl(193, 100%, 96%) ;
+   padding :40px 60px;
+
+}
+
+nav{
+   display:flex;
+   justify-content:space-between;
+   align-items: center; 
+
+}
+nav img{
+   height:35px;   
+}
+/* bttn try free*/
+.bttn{
+   padding : 15px 60px;
+   background-color: #fff;
+   border:none;
+   border-radius: 25px;
+   box-shadow: 0 3px 16px rgba(0,0,0,0.12) ;
+}
+ /* logo upper body content*/
+.create1{
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   padding:60px 0px 20px;
+}
+
+.create1{
+   width:45%;
+}
+.illus-mock{
+   width:55%;
+}
+.create {
+   font-size:42px ;
+   padding-right: 40px;
+   margin:25px 0px;
+
+}
+.create p{
+   padding-right: 40px;
+   margin : 25px 0px;
+}
+.create1 button{
+   background-color: hsl(322, 100%, 66%);
+   color:#fff;
+   padding: 15px  70px ;
+}
+
+.features{
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: center ;
+   padding:120px 80px 40px ;
+}
+.features1{
+   display:flex;
+   justify-content: space-between;
+   align-items: center ;
+   padding: 50px  10px 50px 65px;
+   box-shadow: 0 3px 16px rgba(0,0,0,0.12) ;
+   margin-bottom:40%;
+   border-radius: 10px; 
+}
+.features img{
+   max-width: 100% ;
+   width:500px;
+   padding: 15px 80px 15px 60px;
+}
+.feature-text{
+   padding-left:   70px;
+}
+
+.feature-text h2 {
+   margin:10px 0px;
+}
+.feature-text p{
+   width: 90%;
+}
+.feature2-text{
+   margin-right:0px;
+}
+.feature2-text{
+   width:100%;
+}
+.start{
+   position: relative;
+   max-width: 100% ;
+   width:55%;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin:auto;
+   background-color:  #fff;
+   padding:66px 0px ;
+   box-shadow:  0 3px 16px rgba(0,0,0,0.12) ;
+   border-radius:10px;
+   margin: top -100px; 
+
+start h2{
+   margin-bottom: 15px ;
+}
+.btn-primary{
+   margin-top:20%px;
+   padding:24px 115px;
+   border-radius: 40px; 
+   background-color:hsl(322, 100%, 66%);
+   color : #fff;
+   font-size: 20px ;
+}
+
+footer{
+   display: flex;
+   flex-direction: column;
+   background-color:  hsl(192% 100% 9%);
+   color:#fff;
+   padding:200px 100px 30px;
+}
+.footer-part{
+   display:flex;
+   margin: 40px 0px;
+}
